@@ -44,7 +44,7 @@ This is a simple RESTful API for managing products, built using Node.js, Express
        JWT_SECRET = "Your secret"
    ```
 
-##Endpoints
+## Endpoints
 
 1. POST : SignUp :
    ```
