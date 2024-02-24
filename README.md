@@ -10,8 +10,6 @@ This is a simple RESTful API for managing products, built using Node.js, Express
 - [Endpoints](#endpoints)
 - [Authentication](#authentication)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Tech Stack
 
@@ -88,3 +86,18 @@ This is a simple RESTful API for managing products, built using Node.js, Express
    ```
    localhost:3000/api/v1/products/rating/3.5
    ```
+
+## Authentication
+
+1. Authentication is requird for accesing the products. To authenticate, include a valid token in the request headers:
+   ```
+   Authorization: Bearer your_access_token
+   ```
+
+## Usage
+
+1. Start the server
+   ```
+   npm start
+   ```
+2. The API will be available at http://localhost:3000 (or the port you specified in the .env file).
